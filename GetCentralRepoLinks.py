@@ -34,26 +34,24 @@ def printRepoLinksFromFile(fileName):
     else:
         print("Opening file not working")
 
+
 def printJarLinkFromFile(fileName):
     f = open(fileName, "r")
     if f.mode == 'r':
         for line in f:
-            print(line)
-            print(getJarLink(line))
+            print(line.strip())
+            print(getJarLink(line.strip()))
         f.close()
     else:
         print("Opening file not working")
             
 
 if __name__ == "__main__":
-    #printRepoLinksFromFile("links.txt")
-    #printJarLink("https://mvnrepository.com/artifact/com.sun.istack/istack-commons/3.0.8")
-    #printJarLink("https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime/2.3.2")
-    #printJarLinkFromFile("links.txt")
-    print(getJarLink("https://repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar"))
+
+    print("Repo Links:")
+    printRepoLinksFromFile("links.txt")
+    print("\n\n Jar links:")
+    printJarLinkFromFile("links.txt")
     
 
-    #print("\nJar link for JAXB Runtime » 2.3.2: ")
-    #printJarLink("https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime/2.3.2")
 
-    
