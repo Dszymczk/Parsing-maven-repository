@@ -1,0 +1,16 @@
+https://mvnrepository.com/artifact/org.jboss.byteman/byteman/4.0.10
+https://mvnrepository.com/artifact/org.slf4j/slf4j-jdk14/1.7.21
+https://mvnrepository.com/artifact/org.slf4j/slf4j-jdk14/1.7.21
+https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api/2.3.2
+https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api-parent/2.3.2
+https://mvnrepository.com/artifact/jakarta.activation/jakarta.activation-api/1.2.1
+https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime/2.3.2
+https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-bom/2.3.2
+https://mvnrepository.com/artifact/org.glassfish.jaxb/txw2/2.3.2
+https://mvnrepository.com/artifact/com.sun.activation/all/1.2.1
+https://mvnrepository.com/artifact/com.sun.xml.bind.mvn/jaxb-runtime-parent/2.3.2
+https://mvnrepository.com/artifact/com.sun.xml.bind.mvn/jaxb-parent/2.3.2
+https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-bom-ext/2.3.2
+https://mvnrepository.com/artifact/com.sun.xml.bind.mvn/jaxb-txw-parent/2.3.2
+https://mvnrepository.com/artifact/com.sun.istack/istack-commons-runtime/3.0.8
+https://mvnrepository.com/artifact/com.sun.istack/istack-commons/3.0.8
