@@ -39,7 +39,7 @@ def printJarLinkFromFile(fileName):
     f = open(fileName, "r")
     if f.mode == 'r':
         for line in f:
-            print(line.strip())
+            #print(line.strip())
             print(getJarLink(line.strip()))
         f.close()
     else:
